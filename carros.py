@@ -10,6 +10,8 @@ st.set_page_config(
     layout="wide"
 )
 
+
+
 @st.cache_data
 def load_data_and_model():
     carros = pd.read_csv("car.csv",sep=",")
